@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: Z2C-LynnSweetwood
+  host: Z2C-LynnSweetwood
+  disk_quota: 1024M
+  services:
+    - Speech to Text-a3
+    - Text to Speech-s5
